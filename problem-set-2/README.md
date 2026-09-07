@@ -95,6 +95,8 @@ weighted avg       0.88      0.90      0.88      9043
 
 The ROC curve produced an **AUC of 0.905**, indicating that the model has good ability to distinguish between customers who subscribe and those who do not.
 
+![Bank Marketing Visualization](bank.png)
+
 ## Example Prediction
 
 A sample customer was tested using the trained model.
@@ -151,4 +153,4 @@ python logistic_regression_bank.py
 
 ## Conclusion
 
-The Logistic Regression model achieved a **89.87% test accuracy** and a **0.905 ROC AUC score** on the Bank Marketing dataset. The results show that Logistic Regression can provide a strong baseline for predicting customer subscription behavior, although the lower recall for the positive class indicates that there is room for improvement in identifying customers who actually subscribe.
+The Logistic Regression model achieved a **89.87% test accuracy** and a **0.905 ROC AUC score** on the Bank Marketing dataset. The results show that Logistic Regression can provide a strong basel[...]
